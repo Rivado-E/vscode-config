@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "iosevkaterm nerd font",
-  "terminal.integrated.fontSize": 33,
-  "editor.fontSize": 30,
+  "terminal.integrated.fontSize": 20,
+  "editor.fontSize": 20,
   "window.zoomLevel": -4,
   "prettier.trailingComma": "all",
   "editor.suggest.insertMode": "replace",
@@ -11,23 +11,9 @@
   "update.showReleaseNotes": false,
   "editor.lineNumbers": "relative",
   "go.toolsManagement.autoUpdate": true,
-  // "workbench.colorCustomizations": {
-  //   "[Tokyo Night]": {
-  //     "editor.background": "#181818"
-  //   },
-  //   "[Rosé Pine (no italics)]": {
-  //     "editorCursor.background": "#52ad70"
-  //   }
-  // },
-  // "[jsonc]": {
-  //   "editor.defaultFormatter": "vscode.json-language-features"
-  // },
   "editor.fontLigatures": true,
   "git.autofetch": true,
   "catppuccin.italicKeywords": false,
-  // "[json]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
   "editor.cursorWidth": 3,
   "editor.inlineSuggest.suppressSuggestions": true,
   "editor.semanticHighlighting.enabled": true,
@@ -44,7 +30,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "vim.leader": "<Space>",
   // ----  LEADER REMAPS  ----
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -98,8 +83,8 @@
     {
       "before": [
         "<leader>",
-        "c",
-        "r"
+        "r",
+        "n"
       ],
       "commands": [
         "editor.action.rename"
@@ -205,5 +190,5 @@
         "editor.action.moveLinesUpAction"
       ]
     }
-  ]
+  ],
 }
